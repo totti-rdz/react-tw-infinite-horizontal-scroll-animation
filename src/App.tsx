@@ -1,8 +1,10 @@
+import Title from "./compontents/Title";
+
 function App() {
   return (
-    <>
-      <h1>hello world</h1>
-    </>
+    <main className="flex flex-col justify-center items-center h-screen w-screen">
+     <Title title="Infinite Horizontal Scroll Animation" subtitle=" tailwind CSS, content independent, bi-directional, customizable" />
+    </main>
   );
 }
 
